@@ -1,14 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="BRSSCRqlFU42dSTkHmXT">
-    <mxGraphModel dx="939" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="649" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-1" target="NmnCtgbMcDgQTzcPYdwW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NmnCtgbMcDgQTzcPYdwW-1" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;i2c_mux_gpio_probe&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="410" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-3" target="NmnCtgbMcDgQTzcPYdwW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NmnCtgbMcDgQTzcPYdwW-3" value="i2c_mux_gpio_probe_dt" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="110" y="490" width="160" height="40" as="geometry" />
+          <mxGeometry x="125" y="470" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-5" target="NmnCtgbMcDgQTzcPYdwW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-5" value="gpiod_count  获取mux相关的标签数量" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="540" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-7" target="NmnCtgbMcDgQTzcPYdwW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-7" value="i2c_get_adapter 获取iic适配器，结构体i2c_adapter" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-12" target="NmnCtgbMcDgQTzcPYdwW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-12" target="NmnCtgbMcDgQTzcPYdwW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-12" value="i2c_mux_alloc" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-13" target="NmnCtgbMcDgQTzcPYdwW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-13" value="i2c_mux_gpio_select" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="675" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-16" target="NmnCtgbMcDgQTzcPYdwW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-16" value="i2c_mux_gpio_set" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="675" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-18" value="gpiod_set_array_value_cansleep" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="675" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-21" value="muxc-&gt;select = select;&#xa;alloc设置了select回调" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-23" target="NmnCtgbMcDgQTzcPYdwW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-23" value="platform_set_drvdata(pdev, muxc);&#xa;muxc复制给pdev-dev-data" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="750" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-25" target="NmnCtgbMcDgQTzcPYdwW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-25" value="i2c_root_adapter(&amp;parent-&gt;dev);" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="830" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NmnCtgbMcDgQTzcPYdwW-27" target="NmnCtgbMcDgQTzcPYdwW-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-27" value="i2c_parent_is_i2c_adapter" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NmnCtgbMcDgQTzcPYdwW-29" value="to_i2c_adapter(parent);&#xa;返回一个adapter" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="830" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
